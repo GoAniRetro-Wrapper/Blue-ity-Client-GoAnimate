@@ -1,1 +1,1 @@
-puttheseassetsyoudumbass: npm start
+worker: npm start
