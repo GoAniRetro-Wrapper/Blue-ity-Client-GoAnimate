@@ -1,1 +1,6 @@
-
+{
+  "nopatch": {
+    "bin": "library",
+    "nowipeoutsavesurl": "./_SAVED/_DONT-WIPE-OUT.saves"
+  }
+}
