@@ -6,7 +6,6 @@
 				<span>VERSIÖN</span>
 			</div>
 			<div>
-				<a class="button_small" onclick="document.getElementById('file').click()">UPLOAD A MOVIE</a>
 				<div class="char_dropdown button_small">
 					<div>CREATE A CHARACTER</div>
 					<menu>
@@ -51,8 +50,9 @@
 				<a href="/go_full" class="button_big">MAKE A VIDEO</a>
 			</div>
 		</div>
-		<div class="warning"><strong>I DO NOT OWN VYOND'S ASSETS. THIS IS IN PRE-RELEASE<a
-					 <a>CREDITS: VYOND - OFFICIAL CREATOR -- BluePeacocks - Creator of the github assets</a>
+		<div class="warning">
+												   <a>Atleast that the client is right. remake of wrapper online which has been discontined (wrapper.online) website.</a>
+			<a href="https://blueityclientonline.herokuapp.com/html/credits.html">Credits</a>
 		</div>
 	</header>
 	<table>
@@ -71,9 +71,6 @@
 			</tr>
 		</tfoot>
 	</table>
-	<form enctype='multipart/form-data' action='/upload_movie' method='post'>
-		<input id='file' type="file" onchange="this.form.submit()" name='import' accept=".xml" />
-	</form>
 	<script>
 		var json;
 		var tbody = document.getElementsByTagName('tbody')[0];
